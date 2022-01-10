@@ -1,0 +1,57 @@
+.confirme h2 {
+  margin-bottom: 40px;
+}
+
+input,
+textarea {
+  background-color: black;
+  padding: 20px;
+  border: 0;
+  width: 100%;
+  color: var(--cor-c2);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: 1px solid var(--cor-d4);
+}
+
+form label {
+  display: none;
+}
+
+.wpforms-field-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+div#wpforms-5-field_1-container {
+  grid-column: 1;
+}
+
+div#wpforms-5-field_2-container {
+  grid-column: 2;
+}
+
+div#wpforms-5-field_3-container {
+  grid-column: 1/3;
+}
+
+div#wpforms-5-field_4-container {
+  grid-column: 1/3;
+}
+
+.wpforms-submit-container {
+  float: right;
+}
+
+button#wpforms-submit-5 {
+  background-color: var(--cor-d4);
+  padding: 15px 50px;
+  text-transform: uppercase;
+  border: 0;
+}

@@ -60,4 +60,13 @@
             </div>
         </div>
     </section>
+
+    <section id="confirme" class="confirme">
+        <div class="container">
+            <h2 class="texto-g cor-c3">Confirme sua presença</h2>
+            <div class="form-presenca">
+                <?php echo do_shortcode('[wpforms id="5" title="false"]'); ?>
+            </div>
+        </div>
+    </section>
 </main>

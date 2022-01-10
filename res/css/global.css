@@ -104,3 +104,26 @@ section {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+::-webkit-input-placeholder {
+  /* Edge */
+  font-family: 'Lora', serif;
+  font-size: 1.062rem;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: 'Lora', serif;
+  font-size: 1.062rem;
+}
+
+::placeholder {
+  font-family: 'Lora', serif;
+  font-size: 1.062rem;
+}
+
+input,
+textarea {
+  font-family: 'Lora', serif;
+  font-size: 1.062rem;
+}
