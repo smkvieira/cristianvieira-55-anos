@@ -1,0 +1,41 @@
+.festa {
+  background-image: url(/wp-content/themes/cristian55anos/res/images/festa-bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.festa-infos {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.festa h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.festa-infos-content {
+  flex: 1%;
+}
+
+.festa-infos-geral {
+  flex: 1;
+}
+
+.festa-info-icon img {
+  width: 36px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+p.festa-info-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+p.festa-info-icon:last-child {
+  margin-bottom: 0;
+}
