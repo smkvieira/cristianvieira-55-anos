@@ -1,0 +1,21 @@
+blockquote {
+  text-align: center;
+  margin-bottom: 100px;
+  display: block;
+}
+
+.galeria {
+  display: grid;
+  gap: 0;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 40px;
+}
+
+.galeria img {
+  width: 400px;
+  height: 400px;
+}
+
+.fotos-conteudo p {
+  margin-bottom: 10px;
+}

@@ -13,4 +13,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 /* Global */
-@import './res/css/global.css';
+@import 'res/css/global.css';
+
+/* sections */
+@import 'res/css/sections/hero.css';
+@import 'res/css/sections/fotos.css';

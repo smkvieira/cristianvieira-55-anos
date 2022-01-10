@@ -1,0 +1,106 @@
+:root {
+  --cor-preto: #1d1d1d;
+  --cor-d1: #593718;
+  --cor-d2: #a66b37;
+  --cor-d3: #bf8845;
+  --cor-d4: #d9b166;
+
+  --cor-c1: #595959;
+  --cor-c2: #a6a6a6;
+  --cor-c3: #d9d9d9;
+  --cor-c4: #f2f2f2;
+}
+
+.cor-preto {
+  color: var(--cor-preto);
+}
+
+.cor-d1 {
+  color: var(--cor-d1);
+}
+
+.cor-d2 {
+  color: var(--cor-d2);
+}
+
+.cor-d3 {
+  color: var(--cor-d3);
+}
+
+.cor-d4 {
+  color: var(--cor-d4);
+}
+
+.cor-c1 {
+  color: var(--cor-c1);
+}
+
+.cor-c2 {
+  color: var(--cor-c2);
+}
+
+.cor-c3 {
+  color: var(--cor-c3);
+}
+
+.cor-c4 {
+  color: var(--cor-c4);
+}
+
+.texto-xxxg {
+  font-family: 'Lora', serif;
+  font-size: 6.375rem;
+  letter-spacing: -1.5px;
+}
+
+.texto-xxg {
+  font-family: 'Lora', serif;
+  font-size: 4rem;
+  letter-spacing: -0.5px;
+}
+
+.texto-xg {
+  font-family: 'Lora', serif;
+  font-size: 3.187rem;
+}
+
+.texto-g {
+  font-family: 'Lora', serif;
+  font-size: 2.25rem;
+  letter-spacing: 0.25px;
+}
+
+.texto-m {
+  font-family: 'Lora', serif;
+  font-size: 1.562rem;
+}
+
+.texto-p {
+  font-family: 'Lora', serif;
+  font-size: 1.062rem;
+}
+
+.texto-decorativo {
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cor-preto);
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

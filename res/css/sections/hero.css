@@ -1,0 +1,37 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000;
+  text-align: center;
+}
+
+.hero-content {
+  position: relative;
+}
+
+.hero-scroll {
+  position: absolute;
+  bottom: 0;
+}
+
+.hero-icon {
+  margin-bottom: 50px;
+}
+
+.hero-icon img {
+  width: 150px;
+}
+
+.hero-cristian h1 {
+  font-size: 4.687rem;
+  line-height: 45px;
+  margin-bottom: 5px;
+}
+
+.hero-cristian p {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
