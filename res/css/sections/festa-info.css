@@ -39,3 +39,9 @@ p.festa-info-icon {
 p.festa-info-icon:last-child {
   margin-bottom: 0;
 }
+
+@media (max-width: 500px) {
+  .festa-infos {
+    flex-direction: column;
+  }
+}

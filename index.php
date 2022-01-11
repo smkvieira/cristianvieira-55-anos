@@ -25,19 +25,17 @@
         <div class="container">
             <blockquote class="texto-m cor-c3">
                 <p>
-                    “Viver é não ter vergonha de ser feliz,<br/>
-                    cantar, e cantar e cantar a beleza<br/>
-                    de ser um eterno aprendiz”
+                    “Viver é não ter vergonha de ser feliz, cantar, e cantar e cantar a beleza de ser um eterno aprendiz”
                 </p>
                 <cite class="texto-p cor-c1">Gonzaguinha</cite>
             </blockquote>
             <div class="galeria">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/res/images/fotos/foto1.png">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/res/images/fotos/foto2.png">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/res/images/fotos/foto3.png">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/res/images/fotos/foto4.png">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/res/images/fotos/foto5.png">
-                <img src="<?php echo get_stylesheet_directory_uri() ?>/res/images/fotos/foto6.png">
+                <img src="<?php echo get_stylesheet_directory_uri() ?>/res/images/fotos/foto1.jpg">
+                <img src="<?php echo get_stylesheet_directory_uri() ?>/res/images/fotos/foto2.jpg">
+                <img src="<?php echo get_stylesheet_directory_uri() ?>/res/images/fotos/foto3.jpg">
+                <img src="<?php echo get_stylesheet_directory_uri() ?>/res/images/fotos/foto4.jpg">
+                <img src="<?php echo get_stylesheet_directory_uri() ?>/res/images/fotos/foto5.jpg">
+                <img src="<?php echo get_stylesheet_directory_uri() ?>/res/images/fotos/foto6.jpg">
             </div>
             <div class="fotos-conteudo texto-p cor-c3">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tristique ipsum vitae vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer feugiat sit amet mi pulvinar convallis.</p>

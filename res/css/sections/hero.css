@@ -35,3 +35,12 @@
   font-size: 3rem;
   margin-bottom: 50px;
 }
+
+@media (max-width: 500px) {
+  .hero-cristian h1 {
+    font-size: 2.5rem;
+  }
+  .hero-cristian p {
+    font-size: 2rem;
+  }
+}

@@ -2,6 +2,8 @@ blockquote {
   text-align: center;
   margin-bottom: 100px;
   display: block;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 .galeria {
@@ -12,10 +14,22 @@ blockquote {
 }
 
 .galeria img {
-  width: 400px;
-  height: 400px;
+  width: 100%;
 }
 
 .fotos-conteudo p {
   margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  blockquote {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .galeria {
+    grid-template-columns: 1fr;
+  }
 }

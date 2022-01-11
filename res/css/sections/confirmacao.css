@@ -55,3 +55,19 @@ button#wpforms-submit-5 {
   text-transform: uppercase;
   border: 0;
 }
+
+@media (max-width: 500px) {
+  .wpforms-field-container {
+    display: block;
+  }
+
+  input,
+  textarea {
+    margin-bottom: 20px;
+  }
+
+  .wpforms-submit-container {
+    float: none;
+    text-align: center;
+  }
+}
